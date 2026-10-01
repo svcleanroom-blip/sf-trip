@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>SF Trip – SEMICON West (Oct 12–15, 2026)</name>
+  <description>Manny's San Francisco trip. One folder per day, stops in order, plus a route line for each day.</description>
+
+  <Style id="base"><IconStyle><color>ff5a4a3a</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle></Style>
+  <Style id="work"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon></IconStyle></Style>
+  <Style id="mon"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href></Icon></IconStyle><LineStyle><color>ffb0279c</color><width>4</width></LineStyle></Style>
+  <Style id="tue"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href></Icon></IconStyle><LineStyle><color>ffe0a000</color><width>4</width></LineStyle></Style>
+  <Style id="wed"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon></IconStyle><LineStyle><color>ff0080ff</color><width>4</width></LineStyle></Style>
+  <Style id="thu"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle><LineStyle><color>ff3030e0</color><width>4</width></LineStyle></Style>
+  <Style id="backup"><IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+
+  <Folder>
+    <name>Base</name>
+    <Placemark><name>Embassy Hotel (home base)</name><description>610 Polk St. At night, rideshare or Muni instead of walking through the Tenderloin.</description><styleUrl>#base</styleUrl><Point><coordinates>-122.4191,37.7829,0</coordinates></Point></Placemark>
+    <Placemark><name>Moscone Center – SEMICON West</name><description>747 Howard St. Expo 10am–5pm Tue/Wed, 10am–4pm Thu. Arrive 9am.</description><styleUrl>#work</styleUrl><Point><coordinates>-122.4010,37.7840,0</coordinates></Point></Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Mon Oct 12 – Arrive + pool night</name>
+    <Placemark><name>1:30pm · Land at SFO</name><description>BART into the city (~30 min) or rideshare.</description><styleUrl>#mon</styleUrl><Point><coordinates>-122.3790,37.6213,0</coordinates></Point></Placemark>
+    <Placemark><name>~2:30–6pm · Work at Moscone</name><styleUrl>#work</styleUrl><Point><coordinates>-122.4010,37.7840,0</coordinates></Point></Placemark>
+    <Placemark><name>~6:30pm · Dinner on Polk St</name><description>Plenty of casual spots on Polk between the hotel and the bar.</description><styleUrl>#mon</styleUrl><Point><coordinates>-122.4199,37.7880,0</coordinates></Point></Placemark>
+    <Placemark><name>~8pm · Pool at The Wreck Room</name><description>1390 California St. Dive bar with pool, Skee-ball, shuffleboard.</description><styleUrl>#mon</styleUrl><Point><coordinates>-122.4187,37.7906,0</coordinates></Point></Placemark>
+    <Placemark><name>Mon route</name><styleUrl>#mon</styleUrl><LineString><tessellate>1</tessellate><coordinates>-122.4010,37.7840,0 -122.4191,37.7829,0 -122.4199,37.7880,0 -122.4187,37.7906,0 -122.4191,37.7829,0</coordinates></LineString></Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Tue Oct 13 – Salesforce Park + waterfront</name>
+    <Placemark><name>8:00–8:45am · Salesforce Park</name><description>Rooftop park, open 6am–9pm. Elevators inside the Transit Center.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.3965,37.7896,0</coordinates></Point></Placemark>
+    <Placemark><name>9am–5pm · SEMICON West</name><styleUrl>#work</styleUrl><Point><coordinates>-122.4010,37.7840,0</coordinates></Point></Placemark>
+    <Placemark><name>~5:15pm · Ferry Building</name><description>Food hall and bay views. ~15 min walk from Moscone.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.3937,37.7955,0</coordinates></Point></Placemark>
+    <Placemark><name>~6:30pm · Pier 39 sea lions (sunset walk)</name><description>Walk the Embarcadero north (~30 min). Sunset ~6:35pm.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.4102,37.8093,0</coordinates></Point></Placemark>
+    <Placemark><name>~7:15pm · Waterfront dinner</name><styleUrl>#tue</styleUrl><Point><coordinates>-122.4115,37.8080,0</coordinates></Point></Placemark>
+    <Placemark><name>~9pm · Bay Bridge lights (Pier 14)</name><description>Ride the F streetcar back along the Embarcadero.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.3910,37.7945,0</coordinates></Point></Placemark>
+    <Placemark><name>Tue route</name><styleUrl>#tue</styleUrl><LineString><tessellate>1</tessellate><coordinates>-122.4191,37.7829,0 -122.3965,37.7896,0 -122.4010,37.7840,0 -122.3937,37.7955,0 -122.4102,37.8093,0 -122.3910,37.7945,0 -122.4191,37.7829,0</coordinates></LineString></Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Wed Oct 14 – City Hall + Twin Peaks + North Beach</name>
+    <Placemark><name>8:00–8:30am · City Hall</name><description>Opens 8am weekdays. Rotunda + 2nd-floor balcony. Small bag for security.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4193,37.7793,0</coordinates></Point></Placemark>
+    <Placemark><name>8:30am · Civic Center BART → Powell</name><styleUrl>#wed</styleUrl><Point><coordinates>-122.4139,37.7797,0</coordinates></Point></Placemark>
+    <Placemark><name>9am–5pm · SEMICON West</name><styleUrl>#work</styleUrl><Point><coordinates>-122.4010,37.7840,0</coordinates></Point></Placemark>
+    <Placemark><name>~6:05pm · Twin Peaks sunset</name><description>Rideshare ~20 min, leave Moscone by 5:45. Sunset ~6:35pm. Bring a jacket.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4477,37.7544,0</coordinates></Point></Placemark>
+    <Placemark><name>~7:30pm · Chinatown Dragon Gate</name><description>Walk up Grant Ave into North Beach.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4058,37.7908,0</coordinates></Point></Placemark>
+    <Placemark><name>~8pm · Tony's Pizza Napoletana</name><description>1570 Stockton St. Expect a wait.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4090,37.8003,0</coordinates></Point></Placemark>
+    <Placemark><name>~9pm · City Lights Bookstore</name><description>261 Columbus Ave.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4065,37.7976,0</coordinates></Point></Placemark>
+    <Placemark><name>~9:30pm · Vesuvio Cafe</name><description>255 Columbus Ave, next to City Lights.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4063,37.7974,0</coordinates></Point></Placemark>
+    <Placemark><name>Wed route</name><styleUrl>#wed</styleUrl><LineString><tessellate>1</tessellate><coordinates>-122.4191,37.7829,0 -122.4193,37.7793,0 -122.4139,37.7797,0 -122.4010,37.7840,0 -122.4477,37.7544,0 -122.4058,37.7908,0 -122.4090,37.8003,0 -122.4065,37.7976,0 -122.4063,37.7974,0 -122.4191,37.7829,0</coordinates></LineString></Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Thu Oct 15 – Last day + fly home</name>
+    <Placemark><name>Morning · Check out of Embassy Hotel</name><description>Ask the hotel to hold bags, or bring them.</description><styleUrl>#thu</styleUrl><Point><coordinates>-122.4191,37.7829,0</coordinates></Point></Placemark>
+    <Placemark><name>9am–3:30pm · SEMICON West</name><description>Expo closes 4pm.</description><styleUrl>#work</styleUrl><Point><coordinates>-122.4010,37.7840,0</coordinates></Point></Placemark>
+    <Placemark><name>~3:30pm · Powell St BART → SFO</name><description>~30 min ride.</description><styleUrl>#thu</styleUrl><Point><coordinates>-122.4079,37.7844,0</coordinates></Point></Placemark>
+    <Placemark><name>6pm · Depart SFO</name><styleUrl>#thu</styleUrl><Point><coordinates>-122.3790,37.6213,0</coordinates></Point></Placemark>
+    <Placemark><name>Thu route</name><styleUrl>#thu</styleUrl><LineString><tessellate>1</tessellate><coordinates>-122.4191,37.7829,0 -122.4010,37.7840,0 -122.4079,37.7844,0 -122.3790,37.6213,0</coordinates></LineString></Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Backups</name>
+    <Placemark><name>Golden Gate Tap Room (pool)</name><description>449 Powell St. Sports bar with pool and foosball.</description><styleUrl>#backup</styleUrl><Point><coordinates>-122.4086,37.7892,0</coordinates></Point></Placemark>
+    <Placemark><name>Emporium (pool + arcade)</name><description>616 Divisadero St.</description><styleUrl>#backup</styleUrl><Point><coordinates>-122.4378,37.7757,0</coordinates></Point></Placemark>
+    <Placemark><name>Clarion Alley murals</name><styleUrl>#backup</styleUrl><Point><coordinates>-122.4217,37.7630,0</coordinates></Point></Placemark>
+    <Placemark><name>La Taqueria</name><description>2889 Mission St.</description><styleUrl>#backup</styleUrl><Point><coordinates>-122.4181,37.7509,0</coordinates></Point></Placemark>
+    <Placemark><name>Lands End / Sutro Baths</name><description>Daylight only.</description><styleUrl>#backup</styleUrl><Point><coordinates>-122.5138,37.7804,0</coordinates></Point></Placemark>
+  </Folder>
+</Document>
+</kml>

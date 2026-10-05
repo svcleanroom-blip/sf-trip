@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>SF Trip – SEMICON West (Oct 12–15, 2026)</name>
+<description>One folder per day, stops in order with reminders, plus a route line per day.</description>
+<Style id="mon"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href></Icon></IconStyle><LineStyle><color>ffb0279c</color><width>4</width></LineStyle></Style>
+<Style id="tue"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href></Icon></IconStyle><LineStyle><color>ffe0a000</color><width>4</width></LineStyle></Style>
+<Style id="wed"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon></IconStyle><LineStyle><color>ff0080ff</color><width>4</width></LineStyle></Style>
+<Style id="thu"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle><LineStyle><color>ff3030e0</color><width>4</width></LineStyle></Style>
+<Style id="work"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon></IconStyle></Style>
+<Folder><name>Base</name><Placemark><name>Embassy Hotel (home base)</name><description>610 Polk St. At night, rideshare instead of walking.</description><styleUrl>#work</styleUrl><Point><coordinates>-122.4191,37.7829,0</coordinates></Point></Placemark><Placemark><name>Moscone Center – SEMICON West</name><styleUrl>#work</styleUrl><Point><coordinates>-122.401,37.784,0</coordinates></Point></Placemark></Folder>
+<Folder><name>Mon · Oct 12 – Arrive + pool night</name><description>Wear: Travel + work: comfortable work clothes you can set up a booth in. Polo or button-down, chinos, broken-in shoes. After work: Dive-bar casual: dark jeans, clean sneakers, tee or henley, light jacket or overshirt. Bring: ID, phone charger, a few dollars in quarters for the pool table.</description>
+<Placemark><name>2:30pm · Work at Moscone</name><description>Drop bags at the hotel first if there's time.
+• Pick up your badge and save it somewhere you won't forget.
+• Ask the hotel about bag storage for Thursday while you're checking in.</description><styleUrl>#work</styleUrl><Point><coordinates>-122.401,37.784,0</coordinates></Point></Placemark>
+<Placemark><name>6:30pm · Dinner on Polk St</name><description>Lots of casual spots between the hotel and the bar.</description><styleUrl>#mon</styleUrl><Point><coordinates>-122.4199,37.788,0</coordinates></Point></Placemark>
+<Placemark><name>8pm · Pool at The Wreck Room</name><description>Dark dive bar: pool, Skee-ball, shuffleboard.
+• Bring ID. Most bars card everyone.
+• Pool tables usually take quarters or a card reader. Bring both.
+• Keep it to a couple drinks. Tomorrow is an early 8am start.</description><styleUrl>#mon</styleUrl><Point><coordinates>-122.4187,37.7906,0</coordinates></Point></Placemark>
+<Placemark><name>Mon route</name><styleUrl>#mon</styleUrl><LineString><tessellate>1</tessellate><coordinates>-122.379,37.6213,0 -122.401,37.784,0 -122.4199,37.788,0 -122.4187,37.7906,0 -122.4191,37.7829,0</coordinates></LineString></Placemark></Folder>
+<Folder><name>Tue · Oct 13 – Salesforce Park + soccer + waterfront</name><description>Wear: Business casual for the show: polo or button-down, chinos, comfortable leather sneakers. You'll be standing all day. After work: Soccer: athletic shorts or joggers, a dri-fit tee, turf shoes or flat sneakers (no metal cleats). Waterfront: change into jeans or joggers + a hoodie and a windbreaker. The piers get windy and drop into the 50s after sunset. Bring: A small backpack with your soccer clothes, turf shoes, a towel, a plastic bag for sweaty clothes, a water bottle, hoodie, ID, and quarters for the arcade.</description>
+<Placemark><name>8am · Salesforce Park</name><description>Rooftop garden, opens 6am. Take the elevators inside the Transit Center.
+• Grab coffee on the way. The park is a quiet place to drink it.
+• Leave by 8:45 to be at Moscone at 9.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.3965,37.7896,0</coordinates></Point></Placemark>
+<Placemark><name>9am · SEMICON West</name><description>Expo 10am–5pm.
+• Ask if there's a coat check or booth space to stash your soccer bag.</description><styleUrl>#work</styleUrl><Point><coordinates>-122.401,37.784,0</coordinates></Point></Placemark>
+<Placemark><name>5:15pm · Soccer at The Crossing</name><description>Street Soccer USA fields, open for community play when not booked.
+• The day before, check the field availability calendar on The Crossing's website. If it's booked solid, you can reserve an hour instead.
+• Pickup depends on who shows up. Ask whoever's playing if you can jump in.
+• Bring a ball if you can, plus water. There are restrooms on site for changing.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.3922,37.7889,0</coordinates></Point></Placemark>
+<Placemark><name>6pm · A beer at The Greyhound</name><description>Beer garden on site. Happy hour runs 3–6pm.
+• Bring ID.
+• Change into your warm layer before you leave. It cools down fast near the water.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.3922,37.7889,0</coordinates></Point></Placemark>
+<Placemark><name>6:30pm · Embarcadero walk to Pier 39</name><description>About 30 min north. Sunset around 6:35. Sea lions on the docks.
+• Keep your phone in a front pocket. Pier 39 gets crowded.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.4102,37.8093,0</coordinates></Point></Placemark>
+<Placemark><name>7:10pm · Musée Mécanique</name><description>Free antique arcade at Pier 45, 5 min from Pier 39.
+• Admission is free, but the games cost coins. There are change machines inside.
+• Check the closing time the day before.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.4157,37.8094,0</coordinates></Point></Placemark>
+<Placemark><name>8pm · Dinner at the Wharf</name><description>Clam chowder in a bread bowl if you've never had it.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.414,37.808,0</coordinates></Point></Placemark>
+<Placemark><name>9:20pm · Bay Bridge lights at Pier 14</name><description>The light show runs nightly after dark.</description><styleUrl>#tue</styleUrl><Point><coordinates>-122.391,37.7945,0</coordinates></Point></Placemark>
+<Placemark><name>Tue route</name><styleUrl>#tue</styleUrl><LineString><tessellate>1</tessellate><coordinates>-122.4191,37.7829,0 -122.3965,37.7896,0 -122.401,37.784,0 -122.3922,37.7889,0 -122.3922,37.7889,0 -122.4102,37.8093,0 -122.4157,37.8094,0 -122.414,37.808,0 -122.391,37.7945,0 -122.4191,37.7829,0</coordinates></LineString></Placemark></Folder>
+<Folder><name>Wed · Oct 14 – City Hall + Lands End + North Beach</name><description>Wear: Business casual again, but wear your most comfortable sneakers. You're doing a coastal trail after work and won't be back at the hotel. After work: Layers: a fleece or puffer vest under a windbreaker, plus a beanie. Lands End is the coldest, windiest spot on the trip. Jeans or joggers are fine. Bring: A small backpack with your warm layers, a charged phone (flashlight + rideshare), a portable battery, water, and ID.</description>
+<Placemark><name>8am · San Francisco City Hall</name><description>Opens 8am. Rotunda, grand staircase, 2nd-floor balcony.
+• Security screening at the door. Keep your bag under about 11 × 17 × 7 inches, or use the Grove St entrance.
+• Best photo: from the 2nd-floor balcony looking down at the rotunda.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4193,37.7793,0</coordinates></Point></Placemark>
+<Placemark><name>9am · SEMICON West</name><description>Expo 10am–5pm.
+• Leave right at 5. Lands End timing is tight.</description><styleUrl>#work</styleUrl><Point><coordinates>-122.401,37.784,0</coordinates></Point></Placemark>
+<Placemark><name>5:40pm · Lands End + Sutro Baths sunset</name><description>Walk down to the ruins, then catch the sunset over the ocean around 6:35.
+• Stay on the marked paths and off the ruin walls and rocks. Big waves can come up without warning.
+• Head back up to the Lookout right after sunset, before the trail gets dark.
+• Request your next ride from the Lookout parking lot. Pickups out there can take a few minutes.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.5138,37.7804,0</coordinates></Point></Placemark>
+<Placemark><name>7:10pm · Palace of Fine Arts</name><description>Lit up at night. Walk around the lagoon for photos.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4484,37.8029,0</coordinates></Point></Placemark>
+<Placemark><name>7:55pm · Tony's Pizza Napoletana</name><description>Expect a wait.
+• Try to book a table ahead. If you can't, put your name down when you arrive and wait at a nearby bar.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.409,37.8003,0</coordinates></Point></Placemark>
+<Placemark><name>9pm · City Lights Bookstore</name><description>Open late.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4065,37.7976,0</coordinates></Point></Placemark>
+<Placemark><name>9:20pm · Drink at Vesuvio</name><description>Right next door.
+• Bring ID.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.4063,37.7974,0</coordinates></Point></Placemark>
+<Placemark><name>10:25pm · Ina Coolbrith Park</name><description>Night view of downtown, Coit Tower and the Bay.
+• The stairs are steep and dimly lit. Use your phone light.
+• Keep it short and take a rideshare back from Vallejo &amp; Taylor.</description><styleUrl>#wed</styleUrl><Point><coordinates>-122.414,37.7983,0</coordinates></Point></Placemark>
+<Placemark><name>Wed route</name><styleUrl>#wed</styleUrl><LineString><tessellate>1</tessellate><coordinates>-122.4191,37.7829,0 -122.4193,37.7793,0 -122.4139,37.7797,0 -122.401,37.784,0 -122.5138,37.7804,0 -122.4484,37.8029,0 -122.409,37.8003,0 -122.4065,37.7976,0 -122.4063,37.7974,0 -122.414,37.7983,0 -122.4191,37.7829,0</coordinates></LineString></Placemark></Folder>
+<Folder><name>Thu · Oct 15 – Last day + fly home</name><description>Wear: Travel-friendly business casual: polo or button-down, chinos, the same comfortable sneakers. Wear your bulkiest jacket on the plane to save bag space. Bring: Everything. Do a last sweep of the room: chargers, the bathroom, the safe, and under the bed.</description>
+<Placemark><name>9am · SEMICON West</name><description>Expo closes at 4pm.
+• Set a phone alarm for 3:20pm.</description><styleUrl>#work</styleUrl><Point><coordinates>-122.401,37.784,0</coordinates></Point></Placemark>
+<Placemark><name>6pm · Depart SFO</name><description>6pm</description><styleUrl>#thu</styleUrl><Point><coordinates>-122.379,37.6213,0</coordinates></Point></Placemark>
+<Placemark><name>Thu route</name><styleUrl>#thu</styleUrl><LineString><tessellate>1</tessellate><coordinates>-122.4191,37.7829,0 -122.401,37.784,0 -122.4079,37.7844,0 -122.379,37.6213,0</coordinates></LineString></Placemark></Folder>
+<Folder><name>Backups</name><Placemark><name>Golden Gate Tap Room (pool)</name><Point><coordinates>-122.4086,37.7892,0</coordinates></Point></Placemark><Placemark><name>Emporium (pool + arcade)</name><Point><coordinates>-122.4378,37.7757,0</coordinates></Point></Placemark><Placemark><name>Coit Tower (elevator until 6pm)</name><Point><coordinates>-122.4058,37.8024,0</coordinates></Point></Placemark></Folder>
+</Document></kml>
